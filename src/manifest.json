@@ -19,7 +19,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://twitter.com/*"
+        "https://twitter.com/*",
+        "https://youtube.com/watch?v=*",
+        "https://www.youtube.com/watch?v=*"
       ],
       "js": [
         "contentScript.bundle.js"
